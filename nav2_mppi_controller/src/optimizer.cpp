@@ -24,7 +24,7 @@
 #include <xtensor/xrandom.hpp>
 #include <xtensor/xnoalias.hpp>
 
-#include "nav2_core/controller_exceptions.hpp"
+#include "nav2_core/exceptions.hpp"
 #include "nav2_costmap_2d/costmap_filters/filter_values.hpp"
 
 namespace mppi

@@ -22,7 +22,7 @@
 #include "nav_msgs/msg/path.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_lifecycle/lifecycle_node.hpp"
-#include "tf2_geometry_msgs/tf2_geometry_msgs.hpp"
+#include "tf2_geometry_msgs/tf2_geometry_msgs.h"
 
 #include "nav2_mppi_controller/tools/parameters_handler.hpp"
 #include "nav2_mppi_controller/tools/utils.hpp"
