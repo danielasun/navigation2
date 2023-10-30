@@ -27,6 +27,7 @@
 #include "nav2_core/controller.hpp"
 #include "nav2_core/goal_checker.hpp"
 #include "rclcpp/rclcpp.hpp"
+#include "nav2_costmap_2d/costmap_2d_ros.hpp"
 
 namespace nav2_mppi_controller
 {

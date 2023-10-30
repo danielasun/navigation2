@@ -48,6 +48,7 @@
 #include "nav2_mppi_controller/models/path.hpp"
 #include "builtin_interfaces/msg/time.hpp"
 #include "nav2_mppi_controller/critic_data.hpp"
+#include "nav2_costmap_2d/costmap_2d_ros.hpp"
 
 namespace mppi::utils
 {
