@@ -58,6 +58,26 @@ public:
   : std::runtime_error(description) {}
 };
 
+class ControllerTFError : public ControllerException
+{
+public:
+  explicit ControllerTFError(const std::string & description)
+  : ControllerException(description) {}
+};
+
+class InvalidPath : public ControllerException
+{
+public:
+  explicit InvalidPath(const std::string & description)
+  : ControllerException(description) {}
+};
+
+class NoValidControl : public ControllerException
+{
+public:
+  explicit NoValidControl(const std::string & description)
+  : ControllerException(description) {}
+};
 
 }  // namespace nav2_core
 
