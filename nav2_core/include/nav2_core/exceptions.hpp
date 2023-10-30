@@ -51,6 +51,14 @@ public:
   using Ptr = std::shared_ptr<PlannerException>;
 };
 
+class ControllerException : public std::runtime_error
+{
+public:
+  explicit ControllerException(const std::string & description)
+  : std::runtime_error(description) {}
+};
+
+
 }  // namespace nav2_core
 
 #endif  // NAV2_CORE__EXCEPTIONS_HPP_
