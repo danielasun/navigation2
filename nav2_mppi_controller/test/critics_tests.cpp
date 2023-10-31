@@ -60,7 +60,7 @@ TEST(CriticTests, ConstraintsCritic)
   // Standard preamble
   auto node = std::make_shared<rclcpp_lifecycle::LifecycleNode>("my_node");
   auto costmap_ros = std::make_shared<nav2_costmap_2d::Costmap2DROS>(
-    "dummy_costmap", "", "dummy_costmap", true);
+    "dummy_costmap", "", "dummy_costmap");
   ParametersHandler param_handler(node);
   rclcpp_lifecycle::State lstate;
   costmap_ros->on_configure(lstate);
@@ -132,7 +132,7 @@ TEST(CriticTests, GoalAngleCritic)
   // Standard preamble
   auto node = std::make_shared<rclcpp_lifecycle::LifecycleNode>("my_node");
   auto costmap_ros = std::make_shared<nav2_costmap_2d::Costmap2DROS>(
-    "dummy_costmap", "", "dummy_costmap", true);
+    "dummy_costmap", "", "dummy_costmap");
   ParametersHandler param_handler(node);
   rclcpp_lifecycle::State lstate;
   costmap_ros->on_configure(lstate);
@@ -184,7 +184,7 @@ TEST(CriticTests, GoalCritic)
   // Standard preamble
   auto node = std::make_shared<rclcpp_lifecycle::LifecycleNode>("my_node");
   auto costmap_ros = std::make_shared<nav2_costmap_2d::Costmap2DROS>(
-    "dummy_costmap", "", "dummy_costmap", true);
+    "dummy_costmap", "", "dummy_costmap");
   ParametersHandler param_handler(node);
   rclcpp_lifecycle::State lstate;
   costmap_ros->on_configure(lstate);
@@ -233,7 +233,7 @@ TEST(CriticTests, PathAngleCritic)
   // Standard preamble
   auto node = std::make_shared<rclcpp_lifecycle::LifecycleNode>("my_node");
   auto costmap_ros = std::make_shared<nav2_costmap_2d::Costmap2DROS>(
-    "dummy_costmap", "", "dummy_costmap", true);
+    "dummy_costmap", "", "dummy_costmap");
   ParametersHandler param_handler(node);
   rclcpp_lifecycle::State lstate;
   costmap_ros->on_configure(lstate);
@@ -348,7 +348,7 @@ TEST(CriticTests, PreferForwardCritic)
   // Standard preamble
   auto node = std::make_shared<rclcpp_lifecycle::LifecycleNode>("my_node");
   auto costmap_ros = std::make_shared<nav2_costmap_2d::Costmap2DROS>(
-    "dummy_costmap", "", "dummy_costmap", true);
+    "dummy_costmap", "", "dummy_costmap");
   ParametersHandler param_handler(node);
   rclcpp_lifecycle::State lstate;
   costmap_ros->on_configure(lstate);
@@ -401,7 +401,7 @@ TEST(CriticTests, TwirlingCritic)
   // Standard preamble
   auto node = std::make_shared<rclcpp_lifecycle::LifecycleNode>("my_node");
   auto costmap_ros = std::make_shared<nav2_costmap_2d::Costmap2DROS>(
-    "dummy_costmap", "", "dummy_costmap", true);
+    "dummy_costmap", "", "dummy_costmap");
   ParametersHandler param_handler(node);
   rclcpp_lifecycle::State lstate;
   costmap_ros->on_configure(lstate);
@@ -461,7 +461,7 @@ TEST(CriticTests, PathFollowCritic)
   // Standard preamble
   auto node = std::make_shared<rclcpp_lifecycle::LifecycleNode>("my_node");
   auto costmap_ros = std::make_shared<nav2_costmap_2d::Costmap2DROS>(
-    "dummy_costmap", "", "dummy_costmap", true);
+    "dummy_costmap", "", "dummy_costmap");
   ParametersHandler param_handler(node);
   rclcpp_lifecycle::State lstate;
   costmap_ros->on_configure(lstate);
@@ -509,7 +509,7 @@ TEST(CriticTests, PathAlignCritic)
   // Standard preamble
   auto node = std::make_shared<rclcpp_lifecycle::LifecycleNode>("my_node");
   auto costmap_ros = std::make_shared<nav2_costmap_2d::Costmap2DROS>(
-    "dummy_costmap", "", "dummy_costmap", true);
+    "dummy_costmap", "", "dummy_costmap");
   ParametersHandler param_handler(node);
   rclcpp_lifecycle::State lstate;
   costmap_ros->on_configure(lstate);
@@ -613,7 +613,7 @@ TEST(CriticTests, PathAlignLegacyCritic)
   // Standard preamble
   auto node = std::make_shared<rclcpp_lifecycle::LifecycleNode>("my_node");
   auto costmap_ros = std::make_shared<nav2_costmap_2d::Costmap2DROS>(
-    "dummy_costmap", "", "dummy_costmap", true);
+    "dummy_costmap", "", "dummy_costmap");
   ParametersHandler param_handler(node);
   rclcpp_lifecycle::State lstate;
   costmap_ros->on_configure(lstate);
